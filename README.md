@@ -1,6 +1,6 @@
 # Assessment-3
 
-This Project is designed using Bootstrap. [Live Link](https://joygoswami.github.io/third-assessment/)
+This Project is designed using Bootstrap. [Live Link](https://raquibul024.github.io/Assessment-3/)
 
 ## Author
 

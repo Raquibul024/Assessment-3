@@ -16,6 +16,9 @@ This Project is designed using Bootstrap. [Live Link](https://joygoswami.github.
 
 # [Live Link](https://raquibul024.github.io/Assessment-3/)
 
-# Screenshots
+## Screenshots
 
-https://github.com/Raquibul024/Assessment-3/blob/main/assets/screenshot/Screenshot-1.jpg)
+### PC View
+
+![App Screenshot](https://github.com/Raquibul024/Assessment-3/blob/main/assets/screenshot/Screenshot-1.jpg?raw=true)
+

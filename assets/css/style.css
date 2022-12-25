@@ -1,0 +1,381 @@
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+/* font-family: 'Jost', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* common css start */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a,
+a:hover{
+  text-decoration: none;
+}
+ul,
+ol{
+  margin: 0;
+  padding: 0;
+}
+.text-main{
+  color: #3EC2A0 !important;
+}
+.bg-main{
+  background-color: #3EC2A0 !important;
+}
+.text-second{
+  color: #17a2b8 !important;
+}
+.bg-second{
+  background-color: #17a2b8 !important;
+  
+}
+/* common css end */
+
+/* -- header section start -- */
+header{
+  background: rgba(0,0,0,.5) url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:multiply;
+}
+header .z-300{
+  z-index: 300;
+}
+.nav-link{
+  color: white !important;
+}
+.nav-item .active{
+  color: #3EC2A0 !important;
+}
+.nav-link:hover{
+  color: #3EC2A0 !important;
+}
+.nav-link:focus{
+  color: black !important;
+}
+.display-1{
+  font-size: 65px;
+}
+.para-1{
+  width: 60%;
+}
+/* -- header section end -- */
+
+/* -- banner section start -- */
+.banner{
+  padding: 9rem 0rem;
+}
+button.btnHoverBnr{
+  font-size: 15px;
+  padding: 11px 35px;
+  font-weight: 600;
+  border: 2px solid white;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 0.5em;
+}
+button.btnHoverBnr:hover{
+  background-color: #3EC2A0;
+  border: px solid #3ec2a0;
+}
+/* -- banner section end -- */
+
+/* -- about section start -- */
+.about .row h2{
+	font-size: 45px;
+	line-height: 54px;
+	color: #333333;
+	letter-spacing: 5px;
+	position:relative;
+}
+.about .row h2::after{
+	position: absolute;
+	content: '';
+	height: 3px ;
+	width: 95px;
+	top: 100%;
+	left: 45%;
+	background: #000;
+	color: #FFF;
+}
+button.btnHoverAbt{
+  background-color: #17a2b8;
+  border: 2px solid ;
+  color: white;
+  padding: 11px 35px;
+  display: inline-block;
+}
+button.btnHoverAbt:hover{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+
+/* -- about section end -- */
+
+/* -- service section start -- */
+.service{
+	background: #3EC2A0;
+}
+.service .row h2{
+	font-size: 45px;
+	line-height: 54px;
+	color: #ffffff;
+	letter-spacing: 5px;
+	position:relative;
+}
+.service .row h2::after{
+	position: absolute;
+	content: '';
+	height: 3px ;
+	width: 95px;
+	top: 100%;
+	left: 45%;
+	background: #ffffff;
+}
+/* -- service section end -- */
+
+/* -- experience section start -- */
+
+.experience .row h2{
+	font-size: 45px;
+	line-height: 54px;
+	color: #333333;
+	letter-spacing: 5px;
+	position:relative;
+}
+.experience .row h2::after{
+	position: absolute;
+	content: '';
+	height: 3px ;
+	width: 95px;
+	top: 100%;
+	left: 45%;
+	background: #000;
+}
+.experience .container .row .experience-content{
+	background: #F8F9FA;
+}
+.experience .container .row .experience-content h3{
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 3px;
+}
+.experience .container .row .experience-content .btn{
+	margin-left: 150px;
+	font-size: 13px;
+	background: #30C39E;
+}
+
+/* -- experience section end -- */
+
+/* -- blog section start -- */
+
+.blog{
+	background: rgba(0,0,0,.5) url(../img/blog-background.jpg) ;
+	padding-left:20px;
+	padding-top: 40px;
+}
+.blog .row h2{
+	font-size: 45px;
+	line-height: 54px;
+	color: #ffffff;
+	letter-spacing: 5px;
+	position:relative;
+}
+.blog .row h2::after{
+	position: absolute;
+	content: '';
+	height: 3px ;
+	width: 95px;
+	top: 110%;
+	left: 45%;
+	background: #ffffff;
+}
+.blog .row h4{
+	font-size: 28px;
+	line-height: 30px;
+	color: #ffffff;
+	letter-spacing: 3px;
+	padding-top: 60px;
+}
+.blog .row p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #ffffff;
+	letter-spacing: 2px;
+	width: 70%;
+	color: #cccccc;
+}
+.blog .container .row .blog-content{
+	margin-right:40px;
+	width:28%;
+	padding-bottom:10px;
+}
+.blog .container .row .blog-content h3{
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 2px;
+	padding-top: 40px;
+}
+.blog .container .row .blog-content .btn{
+	font-size: 13px;
+	line-height: 16px;
+	background: #30C39E;
+	height: 5%;
+	width: 45%;
+	margin-top: 30px;
+}
+.blog .container .row .blog-content a{
+color: #39B2D7;
+}
+/* -- blog section end -- */
+
+/* -- projects section start -- */
+.projects{
+	margin-right:20px;
+}
+.projects .row h2{
+	font-size: 45px;
+	line-height: 54px;
+	color: #333333;
+	letter-spacing: 5px;
+	position:relative;
+}
+.projects .row h2::after{
+	position: absolute;
+	content: '';
+	height: 3px ;
+	width: 95px;
+	top: 110%;
+	left: 45%;
+	background: #333333;
+}
+.projects img{
+	margin-right:30px;
+}
+
+/* -- projects section end -- */
+
+/* -- contact section start -- */
+.contact .row h2{
+	font-size: 45px;
+	line-height: 54px;
+	color: #333333;
+	letter-spacing: 5px;
+	position:relative;
+}
+.contact .row h2::after{
+	position: absolute;
+	content: '';
+	height: 3px ;
+	width: 95px;
+	top: 110%;
+	left: 45%;
+	background: #333333;
+}
+.contact .contact-content {
+  margin-top: 10px;
+  margin-left:30px;
+}
+.contact .contact-content .address{
+	margin-right: 50px;
+}
+.address h4,
+.form h4 {
+  color: #333333;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.address p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.address p i {
+  margin-right: 20px;
+  color: #30c39e;
+}
+.address iframe {
+  height: 255px;
+  width: 100%;
+  margin-top: 20px;
+}
+.form label i {
+  margin-right: 4px;
+  color: #30c39e;
+}
+.form{
+	margin-right: 50px;
+}
+.form .btn {
+  padding: 11px 35px;
+  color: #ffffff;
+  background-color: #0A8EA0;
+  border: 2px solid #0A8EA0;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+.form .btn:hover {
+  background-color: #ffffff;
+  color: #222222;
+  border-color: #222222;
+}
+
+/* -- contact section end -- */
+
+/* -- content section start -- */
+.content{
+  background-color: #17a2b8;
+}
+button.btnHoverCntn{
+  font-size: 16px;
+  color: #17a2b8;
+  padding: 11px 35px;
+  background-color: whitesmoke;
+}
+button.btnHoverCntn:hover{
+  background-color: #333;
+  color: white; 
+}
+button.btnHoverCntn2{
+  font-size: 16px;
+  padding: 11px 35px;
+  background-color: #333;
+  color: white;
+}
+button.btnHoverCntn2:hover{
+  background-color: white;
+  color: black;
+}
+/* -- content section end -- */
+
+/* -- footer section start -- */
+footer{
+  background-color: #191919;
+}
+footer .container .row i{
+	height: 42px;
+    width: 42px;
+    font-size: 13px;
+    background: #222;
+    line-height: 42px;
+    color: #999;
+}
+p.copyright{
+  color: #999;
+} 
+/* -- footer section end -- */
+
+
